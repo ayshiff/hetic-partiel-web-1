@@ -37,16 +37,18 @@
 .one {
 	background-image: url('../../images/demo/backgrounds/01.png');
 }
+
 .two {
 	background-image: url('../../images/demo/backgrounds/02.png');
 }
+
 .three {
 	background-image: url('../../images/demo/backgrounds/03.png');
 }
+
 .four {
 	background-image: url('../../images/demo/backgrounds/04.png');
 }
-
 
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
@@ -1183,6 +1185,50 @@ table a,
 /* Mobile Devices --------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width:900px) {
+	.burger_item {
+		display: block;
+		width: 33px;
+		height: 4px;
+		margin-bottom: 5px;
+		position: relative;
+		background: #cdcdcd;
+		border-radius: 3px;
+		z-index: 1;
+	}
+	.burger_container:hover {
+		cursor: pointer;
+	}
+	.burger_container {
+		width: 33px;
+		float: right;
+	}
+	#header {
+		display: flex;
+		justify-content: space-between;
+	}
+	.burger_menu {
+		list-style: none;
+		padding: 50px;
+		text-decoration: none;
+		margin: 0;
+		display: none;
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background: #ededed;
+		z-index: 5;
+	}
+	.burger_menu li {
+		text-decoration: none;
+	}
+	.close {
+		margin-top: 100px;
+		color: black;
+	}
 	.hoc {
 		max-width: 90%;
 	}
@@ -1300,4 +1346,8 @@ table a,
 	.font-x3 {
 		font-size: 1.6rem;
 	}
+}
+
+.burger_menu {
+	display: none;
 }
