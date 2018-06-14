@@ -32,6 +32,22 @@
 	line-height: normal;
 }
 
+/* Background --------------------------------------------------------------------------------------------------------------- */
+
+.one {
+	background-image: url('../../images/demo/backgrounds/01.png');
+}
+.two {
+	background-image: url('../../images/demo/backgrounds/02.png');
+}
+.three {
+	background-image: url('../../images/demo/backgrounds/03.png');
+}
+.four {
+	background-image: url('../../images/demo/backgrounds/04.png');
+}
+
+
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
 #header {}
