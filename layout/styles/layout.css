@@ -207,6 +207,11 @@
 	margin-bottom: 0;
 }
 
+.read_more:hover {
+	transition: 0.3s;
+	opacity: 0.5;
+}
+
 /* Used when elements stack in smaller viewports */
 
 /* Comments */
@@ -322,6 +327,11 @@
 	cursor: pointer;
 }
 
+.cta button:hover {
+	transition: 0.3s;
+	opacity: 0.7;
+}
+
 /* Footer --------------------------------------------------------------------------------------------------------------- */
 
 #footer {
@@ -344,6 +354,11 @@
 	margin: 0;
 	padding: 0;
 	border: none;
+}
+
+#footer .linklist li:hover {
+	transition: 0.3s;
+	opacity: 0.5;
 }
 
 #footer .linklist li::before,
@@ -379,6 +394,11 @@
 	width: 30px;
 	font-size: 16px;
 	text-align: center;
+}
+
+.nospace a:hover {
+	transition: 0.3s;
+	opacity: 0.5;
 }
 
 /* Copyright --------------------------------------------------------------------------------------------------------------- */
